@@ -1,16 +1,30 @@
 body{
-    color:gray;
+    background-color:gray;
 }
 h2{
     color:magenta;
 }
-strong{
+/* strong{
     color:darkred;
-}
+} */
 mark{
-    color:teal;
+    background-color:teal;
+}
+img{
+    width: 250px; height: 250px;
 }
 
+a{
+    color: teal;
+}
 
+/* Class selector */
+.teal-text {
+    color: darkred;
+}
 
+/* ID selector */
+#large-text {
+    font-size: 30px;
+}
 
