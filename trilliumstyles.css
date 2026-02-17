@@ -1,0 +1,30 @@
+/* learn what nav is */
+
+body{
+    background-color: rgb(230, 210, 250);
+}
+
+#green{
+    color:teal;
+}
+
+#red{
+    color:rgb(150, 0, 0);
+}
+
+.div1 {
+    background-color: purple;
+}
+
+.div2{
+    background-color: plum;
+}
+
+div h2{
+    color:white;
+}
+
+div h1{
+    color:white;
+}
+
