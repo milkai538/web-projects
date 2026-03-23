@@ -7,16 +7,18 @@
             /*create a CSS variable */
           --main-color: orange;
         }
-
         
         #box {
-            
-           
+            width: 200px;
+            height: 200px;
+
+            background-color: var(--main-color);
+
+            margin: 20px;
          
             transition: background-color 0.3s;
         }
 
-        
         button {
             padding: 10px 15px;
             font-size: 16px;
@@ -30,8 +32,19 @@
 
 
     <script>
-       
+        const changeColorButton=document.getElementById('changeColor');
 
+        // Tell JS how to find the DIV on our page //
+        const box = document.getElementById('box');
+
+        // Step 1: Connect an event listener to the changeColorButton variable 
+        // Step 2: Create and connect an arrow function to the changeColorButton
+
+        // Function: A chunk or block of code that performs a specific task
+
+        changeColorButton.addEventListener('click', () => {
+            document.documentElement.style.setProperty('--main-color', 'purple');
+        });
 
         
 
