@@ -5,7 +5,7 @@
     <style>
         :root {
            
-           --text-color: rgba(255, 0, 0, 0.750);
+           --text-color: purple;
 
         }
 
@@ -29,7 +29,15 @@
 
         const querySelectorButton=document.getElementById('querySelectorButton');
 
-        
+        getElementByIdButton.addEventListener('click', () => {
+            const heading = document.getElementById('heading');
+            heading.style.setProperty('--text-color', 'red')
+        });
+
+        querySelectorButton.addEventListener('click', () => {
+            const heading = document.querySelector('#heading');
+            heading.style.setProperty('--text-color', 'blue')
+        });
 
         
 
