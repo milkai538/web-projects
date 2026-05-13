@@ -24,9 +24,19 @@ form.addEventListener('submit', (e)=>
         nameError.innerHTML = "Name is required.";
     }
 
+    else
+    {
+        nameError.innerHTML = "";
+    }
+
         if(!email.value.match(emailCheck))
     {
         emailError.innerHTML = "Use a valid email.";
+    }
+
+        else
+    {
+        emailError.innerHTML = "";
     }
 
     if(password.value.length <=5 )
@@ -34,6 +44,35 @@ form.addEventListener('submit', (e)=>
     {
         e.preventDefault();
         passwordError.innerHTML = "Password must be longer than 5 digits.";
+    }
+
+    else
+    {
+        passwordError.innerHTML = "";
+    }
+
+    if(password.value.length >25 )
+
+    {
+        e.preventDefault();
+        passwordError.innerHTML = "Password can be 25 digits at most.";
+    }
+
+    else
+    {
+        passwordError.innerHTML = "";
+    }
+
+    if(password.value === 'password')
+
+    {
+        e.preventDefault();
+        passwordError.innerHTML = "dont even joke lad";
+    }
+
+    else
+    {
+        passwordError.innerHTML = "";
     }
 
 })
