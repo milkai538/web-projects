@@ -1,3 +1,6 @@
+body {
+  background-color: navy;
+}
 .container {
   display: grid;
   grid-template-areas:
@@ -6,11 +9,11 @@
     "footer footer";
   grid-template-columns: 1fr 3fr;
   gap: 3px;
-  background-color: white;
+  background-color: darkgray;
   padding: 5px;
 }
 .container div {
-  background-color: dodgerblue;
+  background-color: blue;
   padding: 10px;
 }
 .container div.header {

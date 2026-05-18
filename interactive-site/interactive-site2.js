@@ -1,6 +1,4 @@
-
-// const modelImages = ["" , ""] Put images here mhmhm
-// moar images for the differences of before and after a reality bender affects things. this is page 2 btw
+const modelImages = ["cornballwall.jpg" , "montauklake.jpg"]
 
 const imgElement = document.getElementById('model-frame');
 
