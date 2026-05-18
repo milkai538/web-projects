@@ -5,7 +5,22 @@
 body{
     background: rgb(55, 115, 245);
     color: navy;
-    
+    line-height: 1.6;
+    font-family:monospace;
+    padding: 1em;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: 0 0px 20px 5px gainsboro;
+}
+
+.container {
+    text-align: center
+
 }
 
 
