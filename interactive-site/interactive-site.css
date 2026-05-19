@@ -27,3 +27,11 @@
   grid-area: footer;
   text-align: center;  
 }
+
+#numberonumber {
+  color: forestgreen;
+}
+
+#numberoerror {
+  color: red;
+}
