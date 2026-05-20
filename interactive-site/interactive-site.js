@@ -48,7 +48,7 @@ form.addEventListener('submit', (e) => {
             break;
         case '0':
             e.preventDefault();
-            numberonumber.innerHTML = "Rude to ignore such a simple instruction, but I digress. That is called a Thaumatologist, or a Type Blue (just think wizards and warlocks). These people are much less powerful than reality benders, but still hold the same capabilities, and are often hired by both of our organizations. Less powerful as in they need to do, as you'd expect, spells to make changes to reality, and face a usually negative feedback for doing so. Again, same capabilities, but they have vast expenses to pay first.";
+            numberonumber.innerHTML = "Rude to ignore such a simple instruction, but I digress. That is called a Thaumatologist, or a Type Blue (just think wizards and warlocks). These people are much less powerful than reality benders, but still hold the same capabilities, and are often hired by both of our organizations. I mean less powerful as in they need to do spells to make changes to reality, and face a usually negative feedback for doing so. Again, same capabilities, but they have vast expenses to pay first.";
             break;
         default:
             break;
