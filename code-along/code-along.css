@@ -10,4 +10,63 @@ body {
     margin: 0;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
 
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.container h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+label {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: start;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.container input[type="number"]{
+    width: 60px;
+    justify-self: end;
+}
+
+.output {
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    min-height: 1.2rem;
+}
+
+.btn-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.btn {
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(12, 12, 235);
+}
